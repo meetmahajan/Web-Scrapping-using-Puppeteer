@@ -1,0 +1,27 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "LinkedIN Scrapping",
+  "main": "main.js",
+  "dependencies": {
+    "@types/jsonfile": "^5.0.0",
+    "@types/puppeteer": "^1.19.0",
+    "fs": "0.0.1-security",
+    "jsonfile": "^5.0.0",
+    "moment": "^2.24.0",
+    "puppeteer": "^1.18.1",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrap-run":"tsc main.ts && node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ashutec_demo@bitbucket.org/ashutec/ashutec-crm-scraping-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ashutec/ashutec-crm-scraping-app#readme"
+}
